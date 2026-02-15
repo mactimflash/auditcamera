@@ -4,7 +4,7 @@
   const token = params.get("t");
 
   // Set your Worker base URL here:
-  const WORKER_BASE = "https://YOUR-WORKER-DOMAIN.workers.dev";
+  const WORKER_BASE = "https://auditcamera.starlinksatellitewifi.workers.dev";
 
   if (!token) {
     statusEl.innerHTML = `<div class="err">Thiếu token. Hãy quay lại Telegram và bấm nút kiểm tra.</div>`;
