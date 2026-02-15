@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Audit Camera</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;padding:24px;background:#0b1020;color:#e8ecff}
+    .card{max-width:720px;margin:0 auto;padding:20px;border-radius:16px;background:rgba(255,255,255,.08);box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .muted{opacity:.8}
+    .ok{margin-top:12px;padding:12px;border-radius:12px;background:rgba(0,255,0,.12)}
+    .err{margin-top:12px;padding:12px;border-radius:12px;background:rgba(255,0,0,.12)}
+    code{background:rgba(255,255,255,.08);padding:2px 6px;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>🏠 Audit Camera</h2>
+    <p class="muted">Trang này sẽ gửi yêu cầu về Worker để hệ thống nhận <b>IP public</b> của bạn và trả kết quả về Telegram.</p>
+    <div id="status">Đang kiểm tra…</div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
